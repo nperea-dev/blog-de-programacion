@@ -1,0 +1,29 @@
+#site settings
+baseURL = 'http://example.org/'
+languageCode = 'es-co'
+title = 'Mi blog de Programacion'
+theme= 'tale-hugo'
+
+
+[Author]
+    name = "Ney Perea"
+    url="https://nperea-dev.netlify.app/"
+    email="nperea75@gmail.con"
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    title = "About"
+    url = "/about/"
+    weight = 0
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    title = "Posts"
+    url = "/posts/"
+    weight = 1
+
+
+
+  
