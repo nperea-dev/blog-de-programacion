@@ -1,7 +1,7 @@
 ---
 title: "Generador de sitios webs estático"
 date: 2023-01-16T22:23:34-05:00
-draft: true
+draft: false
 ---
 
 [![](https://d33wubrfki0l68.cloudfront.net/c38c7334cc3f23585738e40334284fddcaf03d5e/2e17c/images/hugo-logo-wide.svg)](https://gohugo.io/)

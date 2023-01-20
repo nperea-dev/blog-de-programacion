@@ -1,7 +1,7 @@
 ---
 title: "base de datos"
 date: 2023-01-18T06:04:52-05:00
-draft: true
+draft: false
 ---
 
 # **[¿Qué es PostgreSQL?](https://blog.infranetworking.com/servidor-postgresql/)**

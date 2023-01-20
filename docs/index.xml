@@ -7,6 +7,36 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>es-co</language>
     <managingEditor>nperea75@gmail.con (Ney Perea)</managingEditor>
-    <webMaster>nperea75@gmail.con (Ney Perea)</webMaster><atom:link href="https://nperea-blog.netlify.app/index.xml" rel="self" type="application/rss+xml" />
+    <webMaster>nperea75@gmail.con (Ney Perea)</webMaster>
+    <lastBuildDate>Wed, 18 Jan 2023 06:04:52 -0500</lastBuildDate><atom:link href="https://nperea-blog.netlify.app/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>base de datos</title>
+      <link>https://nperea-blog.netlify.app/posts/post3/</link>
+      <pubDate>Wed, 18 Jan 2023 06:04:52 -0500</pubDate>
+      <author>nperea75@gmail.con (Ney Perea)</author>
+      <guid>https://nperea-blog.netlify.app/posts/post3/</guid>
+      <description>¿Qué es PostgreSQL? Para qué sirve, características e instalación. Es un sistema de código abierto de administración de bases de datos del tipo relacional, aunque también es posible ejecutar consultas que sean no relaciones. En este sistema, las consultas relacionales se basan en SQL, mientras que las no relacionales hacen uso de JSON.
+Es de código abierto. Es gratuito. Ese multiplatforma. Es facil de usar. Permite manejar gran volumen de datos.</description>
+    </item>
+    
+    <item>
+      <title>Imagenes</title>
+      <link>https://nperea-blog.netlify.app/posts/post2/</link>
+      <pubDate>Tue, 17 Jan 2023 22:10:37 -0500</pubDate>
+      <author>nperea75@gmail.con (Ney Perea)</author>
+      <guid>https://nperea-blog.netlify.app/posts/post2/</guid>
+      <description>sintaxis de markdown</description>
+    </item>
+    
+    <item>
+      <title>Generador de sitios webs estático</title>
+      <link>https://nperea-blog.netlify.app/posts/post1/</link>
+      <pubDate>Mon, 16 Jan 2023 22:23:34 -0500</pubDate>
+      <author>nperea75@gmail.con (Ney Perea)</author>
+      <guid>https://nperea-blog.netlify.app/posts/post1/</guid>
+      <description>es un creador de sitios web estáticos que le permite crear un sitio web con poco o ningún código. Los generadores de sitios estáticos generalmente le permiten escribir su contenido en un lenguaje de marcado simple, como Markdown.
+¿Qué es un sitio web estático?. Un sitio web estático es un sitio cuyas páginas están diseñadas para que el contenido permanezca constante para todos los visitantes y no cambie, no hay una base de datos asociada con el sitio web a través del cual se cambia el contenido, y nadie puede cambiar o actualizar el contenido excepto por regresando al programador que actualiza las páginas y luego las vuelve a cargar al servidor nuevamente.</description>
+    </item>
+    
   </channel>
 </rss>
