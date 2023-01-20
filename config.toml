@@ -1,5 +1,5 @@
 #site settings
-baseURL = 'http://example.org/'
+baseURL = 'https://nperea-blog.netlify.app/'
 languageCode = 'es-co'
 title = 'Mi blog de Programacion'
 theme= 'tale-hugo'
