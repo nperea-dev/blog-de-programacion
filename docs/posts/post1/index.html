@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es-co">
+    <head>
+		
+		
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>Generador de sitios webs estático &middot; Mi blog de Programacion</title>
+
+		
+		<link rel="stylesheet" href="/css/style.css">
+		<link rel="stylesheet" href="/css/fonts.css">
+		
+		<link rel="icon" href="/favicon.ico"/>
+		<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+		
+		<link href="" rel="alternate" type="application/rss+xml" title="Mi blog de Programacion" />
+
+		<script src="/js/darkmode.js"></script>
+	</head>
+
+    <body>
+        		<nav class="nav">
+			<div class="nav-container">
+				<a href="/">
+					
+						<h2 class="nav-title">Mi blog de Programacion</h2>
+					
+				</a>
+				<ul>
+    
+    
+        <li>
+            <a href="/about/">
+                
+                <span>About</span>
+                
+            </a>
+        </li>
+    
+        <li>
+            <a href="/posts/">
+                
+                <span>Posts</span>
+                
+            </a>
+        </li>
+    
+</ul>
+			</div>
+		</nav>
+
+        <div id="darkModeToggle" onclick="toggleDarkMode()">
+  &#9680; 
+</div>
+
+        
+
+<main>
+	
+
+
+        <div class="post">
+		<div class="post-info">
+    <span>Written by</span>
+        Ney Perea
+        <br>
+        <span>on&nbsp;</span><time datetime="2023-01-16 22:23:34 -0500 -05">January 16, 2023</time>
+</div>
+
+		<h1 class="post-title">Generador de sitios webs estático</h1>
+<div class="post-line"></div>
+
+		
+
+		<p><a href="https://gohugo.io/"><img src="https://d33wubrfki0l68.cloudfront.net/c38c7334cc3f23585738e40334284fddcaf03d5e/2e17c/images/hugo-logo-wide.svg" alt=""></a>
+<!-- raw HTML omitted -->
+es un creador de sitios web estáticos que le permite crear un sitio web con poco o ningún código. Los generadores de sitios estáticos generalmente le permiten escribir su contenido en un lenguaje de marcado simple, como Markdown.</p>
+<h2 id="qué-es-un-sitio-web-estático">¿Qué es un sitio web estático?.</h2>
+<p>Un sitio web estático es un sitio cuyas páginas están diseñadas para que el contenido permanezca constante para todos los visitantes y no cambie, no hay una base de datos asociada con el sitio web a través del cual se cambia el contenido, y nadie puede cambiar o actualizar el contenido excepto por regresando al programador que actualiza las páginas y luego las vuelve a cargar al servidor nuevamente. Por lo general, un sitio web estático consta de una o varias páginas que son independientes entre sí, cada una de las cuales representa un archivo HTML y archivos asociados, como archivos CSS o Javascript.</p>
+<h2 id="chocolatey">Chocolatey.</h2>
+<p>es un administrador de paququete para windows. Lo podemos encontrar en <strong><a href="https://chocolatey.org/">pargina de chocolatey</a></strong>.
+<img src="https://chocolatey.org/assets/images/global-shared/logo-square.svg" alt=""></p>
+<p>Es una de las formas mas faciles de instalar hugo;  <strong><a href="https://chocolatey.org/why-chocolatey">¿Por qué usar chocolatey?</a></strong></p>
+<h2 id="instalacion-de-hugo-con-chocolatey">Instalacion de Hugo con Chocolatey.</h2>
+<p>Desde <strong>powerShell</strong> instala chocolatey
+con el siguente comando:</p>
+<p><code>choco install hugo-extended</code></p>
+<p>luego instala hugo usando el gestor de paquetes para windows chocolatey:</p>
+<p><code>choco install hugo-extended -confirm</code></p>
+<p>Para verificar que hugo quedó correctamente instalado usamos el comando:</p>
+<p><code>hugo verision</code>
+debe mostrar algo como esto:</p>
+<p><code>hugo v0.109.0-47b12b83e636224e5e601813ff3e6790c191e371+extended windows/amd64 BuildDate=2022-12-23T10:38:11Z VendorInfo=gohugoio</code></p>
+<h2 id="hugo-vs-hugo-extended">Hugo vs Hugo Extended</h2>
+<p>En la página de Hugo, cuando se explica la instalación para Windows, mencionan también la posibilidad de instalar el paquete &ldquo;Hugo Extended&rdquo;. Básicamente es el mismo Hugo pero con soporte para la compilación de Sass/SCSS. Podría ser interesante si vamos a usar el  preprocesador de CSS.</p>
+<!-- raw HTML omitted -->
+<h2 id="comandos-utiles-desde-la-terminal">Comandos utiles desde la terminal.</h2>
+<p><code>hugo check</code>  – ejecuta varias comprobaciones de verificación</p>
+<p><code>hugo config</code> – muestra la configuración de un sitio Hugo.</p>
+<p><code>hugo convert</code> – convierte contenidos a diferentes formatos.
+hugo deploy – despliega tu sitio en un proveedor de la nube.</p>
+<p><code>hugo env </code>– muestra la versión de Hugo y la información del entorno.</p>
+<p><code>hugo gen</code> – proporciona acceso a varios generadores.</p>
+<p><code>hugo help </code>– muestra información sobre un comando.</p>
+<p><code>hugo import</code> – permite importar un sitio desde otro lugar</p>
+<p><code>hugo list </code>– muestra una lista de varios tipos de contenido</p>
+<p><code>hugo mod </code>– proporciona acceso a varios ayudantes de módulos</p>
+<p><code>hugo new</code> – te permite crear nuevos contenidos para tu sitio</p>
+<p><code>hugo server</code> – inicia un servidor de desarrollo local</p>
+<p><code>hugo version</code> – muestra la versión actual de Hugo</p>
+<h2 id="sitios-donde-consultar-de-hugo">sitios donde consultar de hugo:</h2>
+<h3 id="primeros-pasos-con-hugohttpsdesarrollowebcomarticulosprimeros-pasos-hugo"><a href="https://desarrolloweb.com/articulos/primeros-pasos-hugo">Primeros pasos con Hugo</a></h3>
+<h3 id="cómo-construir-un-sitio-estático-rapidísimo-con-hugohttpskinstacomesbloghugo-sitio-estaticotexten20tc3a9rminos20de20rendimiento20brutocompletar20mc3a1s20de20media20hora"><a href="https://kinsta.com/es/blog/hugo-sitio-estatico/#:~:text=En%20t%C3%A9rminos%20de%20rendimiento%20bruto,completar%20m%C3%A1s%20de%20media%20hora.">Cómo construir un sitio estático rapidísimo con Hugo</a></h3>
+<h3 id="qué-es-el-generador-de-sitios-web-persistentes-de-hugohttpswwwdz-techscomeshugo-static-site-generator"><a href="https://www.dz-techs.com/es/hugo-static-site-generator">¿Qué es el Generador de Sitios Web Persistentes de Hugo?</a></h3>
+<h2 id="crear-un-sitio-hugo">crear un sitio hugo</h2>
+<p><code>hugo new site primeros-pasos-hugo</code></p>
+<p><img src="/themes/tale-hugo/static/images/captura_crear_sitio.png" alt="">
+<img src="/themes/tale-hugo/static/images/captura_live_server.png" alt=""></p>
+<h3 id="añadir-un-tema">Añadir un tema</h3>
+<p>Los temas de Hugo nos permiten crear un sitio web con un aspecto
+atractivo y con mínimo esfuerzo. En el sitio web de Hugo una sección <strong><a href="https://themes.gohugo.io/">completamente dedicada a themes</a></strong>, donde hay muchas alternativas interesantes y adaptables a todos los tipos de proyecto.
+Hay temas realmente atractivos en el directorio de temas de Hugo, pero yo voy a usar uno un poco más sencillo,Trabajaremos con este theme, que aunque es sencillo también resulta bastante limpio: <a href="https://github.com/EmielH/tale-hugo">https://github.com/EmielH/tale-hugo</a></p>
+<p>se va al subdirectorio theme y se ejecuta:</p>
+<p><code>git submodule add  https://github.com/EmielH/tale-hugo </code></p>
+<p>añade el tema al archivo config.toml</p>
+<p><code>echo &quot;theme = 'tale-hugo'&quot; &gt;&gt; config.toml</code></p>
+<p>o lo modificas directamente desde visual studio code:
+añades al archivo &ldquo;config.toml&rdquo; la siguiente linea:theme = &rsquo;tale-hugo'.</p>
+<p>para probar como vamos ejecutamos:
+<code>hugo server</code> y nos arranca un liveserver en la siguente dirección:
+http://localhost:1313/</p>
+<p>ahora podemos llenar el tema con nuestra propia informacion. para ello el comando</p>
+<p><code>hugo new posts/post1.md</code> crea el siguente archivo:
+<code>content/post1.md</code>
+este se edita en <strong>Markdown</strong>, esta es la cabecera de cada post
+<img src="/themes/tale-hugo/images/captura_live_server.png" alt=""></p>
+<p>cuando el draft esta en true el contenido de este post no se publica, se puede revisar en modo develpment con el siguente comando:</p>
+<p><code>hugo server --buildDrafts </code></p>
+<p><code>hugo server -D</code></p>
+<h3 id="añadir-contenido">Añadir contenido</h3>
+<p><a href="https://gohugo.io/getting-started/quick-start/#add-content">por aqui voy</a></p>
+<p><a href="https://github.com/EmielH/tale-hugo/">tener en cuenta la documentacion del tema</a></p>
+<!-- raw HTML omitted -->
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/w7Ft2ymGmfc" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<!-- raw HTML omitted -->
+
+
+		
+	</div>
+
+	<div class="pagination">
+		<a href="/posts/post2/" class="right arrow">&#8594;</a>
+
+		<a href="#" class="top">Top</a>
+	</div>
+</main>
+
+
+        		<footer>
+			
+			<span>
+			&copy; <time datetime="2023-01-20 21:06:29.107702 -0500 -05 m=&#43;0.708121101">2023</time> Ney Perea. Made with <a href='https://gohugo.io'>Hugo</a> using the <a href='https://github.com/EmielH/tale-hugo/'>Tale</a> theme.
+			</span>
+		</footer>
+
+    </body>
+</html>

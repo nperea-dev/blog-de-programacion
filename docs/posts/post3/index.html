@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es-co">
+    <head>
+		
+		
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>base de datos &middot; Mi blog de Programacion</title>
+
+		
+		<link rel="stylesheet" href="/css/style.css">
+		<link rel="stylesheet" href="/css/fonts.css">
+		
+		<link rel="icon" href="/favicon.ico"/>
+		<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+		
+		<link href="" rel="alternate" type="application/rss+xml" title="Mi blog de Programacion" />
+
+		<script src="/js/darkmode.js"></script>
+	</head>
+
+    <body>
+        		<nav class="nav">
+			<div class="nav-container">
+				<a href="/">
+					
+						<h2 class="nav-title">Mi blog de Programacion</h2>
+					
+				</a>
+				<ul>
+    
+    
+        <li>
+            <a href="/about/">
+                
+                <span>About</span>
+                
+            </a>
+        </li>
+    
+        <li>
+            <a href="/posts/">
+                
+                <span>Posts</span>
+                
+            </a>
+        </li>
+    
+</ul>
+			</div>
+		</nav>
+
+        <div id="darkModeToggle" onclick="toggleDarkMode()">
+  &#9680; 
+</div>
+
+        
+
+<main>
+	
+
+
+        <div class="post">
+		<div class="post-info">
+    <span>Written by</span>
+        Ney Perea
+        <br>
+        <span>on&nbsp;</span><time datetime="2023-01-18 06:04:52 -0500 -05">January 18, 2023</time>
+</div>
+
+		<h1 class="post-title">base de datos</h1>
+<div class="post-line"></div>
+
+		
+
+		<h1 id="qué-es-postgresqlhttpsbloginfranetworkingcomservidor-postgresql"><strong><a href="https://blog.infranetworking.com/servidor-postgresql/">¿Qué es PostgreSQL?</a></strong></h1>
+<h2 id="para-qué-sirve-características-e-instalación"><strong>Para qué sirve, características e instalación.</strong></h2>
+<p>Es un sistema de código abierto de administración de bases de datos del tipo relacional, aunque también es posible ejecutar consultas que sean no relaciones. En este sistema, las consultas relacionales se basan en SQL, mientras que las no relacionales hacen uso de JSON.</p>
+<ul>
+<li>Es de código abierto.</li>
+<li>Es gratuito.</li>
+<li>Ese multiplatforma.</li>
+<li>Es facil de usar.</li>
+<li>Permite manejar gran volumen de datos.</li>
+<li>Soporte total de ACID.</li>
+</ul>
+<p>Dos detalles a destacar de PostgreSQL es que posee data types (tipos de datos) avanzados y permite ejecutar optimizaciones de rendimiento avanzadas, que son características que por lo general solo se ven en sistemas de bases de datos comerciales, como por ejemplo SQL Server de Microsoft u Oracle de la compañía homónima.</p>
+<h2 id="cómo-administrar-postgresql-mediante-interfaz-gráfica"><strong>Cómo administrar PostgreSQL mediante interfaz gráfica.</strong></h2>
+<p><strong>pgAdmin:</strong> es probablemente el gestor de PostgreSQL más conocido y utilizado del mundo. Es fácil de utilizar, intuitivo y compatible con gran cantidad de sistemas operativos, además claro de ser gratuito. Estas características han hecho que se vuelva una de las herramientas más utilizadas a la hora de administrar bases de datos en Postgres. Inicialmente era conocido como pgManager pero con el paso del tiempo cambió de nombre. Su versión más reciente es pgAdmin 4 y podemos correrlo en diversos entornos como Windows, Linux y macOS.</p>
+<p><strong>PhpPgAdmin:</strong> esta herramienta es muy parecida a phpMyAdmin, más incluso que la ya nombrada pgAdmin. Si conoces phpMyAdmin entonces no tendrás muchos problemas para utilizarla pues funciona de manera muy similar. En el menú izquierdo del programa se despliegan los servidores de PostgreSQL y las bases de datos que contiene cada uno, y del lado derecho tenemos diversas herramientas y funcione como por ejemplo exportar e importar, ajustar privilegios, editar campos, etc.</p>
+<p><strong>DBeaver:</strong> es un conocido programa para administrar bases de datos. No solo es compatible con Postgres, sino también con muchos motores más como por ejemplo MySQL, Oracle, SQL Server, MariaDB, etc. Este estupendo gestor está disponible para distintos sistemas operativos y es completamente gratuito. Sus características y funciones hace que sea una de las herramientas preferidas de gran cantidad de usuarios, desarrolladores y administradores de servidores de bases de datos que trabajan a diario con Postgres.</p>
+<h2 id="comparación-de-postgresql-vs-mysql"><strong>Comparación de PostgreSQL vs MySQL</strong></h2>
+<ul>
+<li>
+<p>En lo que refiere a las consultas o queries, las soportadas por MySQL tienden a ser más simples,
+mientras que PostgreSQL soporta queries más complejas, lo cual le ha válido el título del sistema de bases de datos relacionales más avanzado del mercado.</p>
+</li>
+<li>
+<p>En términos de rendimiento cada uno tiene su situación para brillar: MySQL es mejor si se manejan bajos volúmenes de datos, es decir, si tenemos bases de datos pequeñas o medianas a las cuales se hagan una cantidad de consultas no muy alta.
+Por su parte, PostgreSQL es mejor a la hora de manejar volúmenes de datos grandes y se suele usar más cuando se tienen bases de datos grandes y con alta cantidad de consultas.</p>
+</li>
+<li>
+<p>Si miramos el cumplimiento de ACID nos toparemos conque MySQL no lo soporta al 100%, sino solamente las tablas que hagan uso de NDB Cluster o InnoDB,
+mientras que PostgreSQL sí lo soporta completo en todos los casos.</p>
+</li>
+</ul>
+<p><strong>Resumiendo</strong>, por ahora ambos son gratis, así que debemos elegir basándonos en rendimiento más que nada: si quieres un sistema para bases de datos medianas o pequeñas y consultas no muy complejas ni muy abundantes ve por MySQL, de lo contrario PostgreSQL es mejor opción si vas a manejar un volumen notable de datos.</p>
+<h1 id="introducción-a-supabasehttpssupabasecomdocsguidesdatabase"><a href="https://supabase.com/docs/guides/database">Introducción a Supabase</a></h1>
+<p>Supabase is an open source Firebase alternative providing all the backend features you need to build a product. You can use it completely, or just the features you need.</p>
+<p>Start a project with the <a href="https://app.supabase.com/">hosted</a> platform or learn how to <a href="https://supabase.com/docs/guides/hosting/overview">host Supabase</a> yourself.</p>
+<h2 id="postgres-or-postgresql"><strong>Postgres or PostgreSQL?</strong></h2>
+<p>PostgreSQL the database was derived from the POSTGRES Project, a package written at the University of California at Berkeley in 1986. This package included a query language called &ldquo;PostQUEL&rdquo;.</p>
+<p>In 1994, Postgres95 was built on top of POSTGRES code, adding an SQL language interpreter as a replacement for PostQUEL. Eventually, Postgres95 was renamed to PostgreSQL to reflect the SQL query capability.</p>
+<p>After this, many people referred to it as Postgres since it&rsquo;s less prone to confusion. Supabase is all about simplicity, so we also refer to it as Postgres.</p>
+<h2 id="videos-misiontic"><strong>Videos Misiontic</strong></h2>
+<ul>
+<li>
+<p><a href="https://youtu.be/PWO2ZREcS7s">generalidades de base de datos.</a></p>
+</li>
+<li>
+<p><a href="https://youtu.be/l8114lXm8Eo">Crear una base de datos en Supabase.</a></p>
+</li>
+<li>
+<p><a href="https://youtu.be/A0Z9fmWFfNA?t=17">Java Spring Boot Instalación de dependencias</a></p>
+</li>
+<li>
+<p><a href="https://youtu.be/n66i7B47sx8">Java Spring Boot de clases a entidades.</a></p>
+</li>
+<li>
+<p><a href="https://youtu.be/J82dHQsCv2Q">Usar un repositorio para leer datos.</a></p>
+</li>
+<li>
+<p><a href="https://youtu.be/fvz_M4VFcqY">Usar un repositorio para crear datos</a></p>
+</li>
+<li>
+<p><a href="https://mystery.knightlab.com/">juego para aprender SQL</a></p>
+</li>
+</ul>
+<h1 id="entidades-de-springboot"><strong>Entidades de springboot</strong></h1>
+<p><strong><a href="https://docs.oracle.com/javaee/6/tutorial/doc/bnbqa.html#:%7E:text=An%20entity%20is%20a%20lightweight,entities%20can%20use%20helper%20classes">what is a java entity?</a></strong></p>
+<p><strong><a href="https://stackoverflow.com/questions/63414381/what-is-entity-in-spring-jpa#:~:text=An%20entity%20is%20a%20lightweight,entities%20can%20use%20helper%20classes.">what is Entity en Spring JPA?</a></strong></p>
+<p><strong><a href="https://zetcode.com/springboot/repository/#:~:text=A%20repository%20is%20a%20mechanism,be%20autodetected%20through%20classpath%20scanning">repositorio de springboot</a></strong></p>
+<p><strong><a href="https://docs.spring.io/spring-data/data-commons/docs/1.6.1.RELEASE/reference/html/repositories.html">working with springboot repositories</a></strong></p>
+<h1 id="teoria-springboot-gustavo-peiretti"><strong>Teoria springboot gustavo peiretti</strong></h1>
+<ol>
+<li>
+<p><a href="https://gustavopeiretti.com/spring-boot-entities-conceptos-iniciales/">ENTIDADES</a></p>
+</li>
+<li>
+<p><a href="https://gustavopeiretti.com/spring-boot-componente-repository/">REPOSITORIOS</a></p>
+</li>
+<li>
+<p><a href="https://gustavopeiretti.com/spring-boot-componente-service/">SERVICIOS</a></p>
+</li>
+<li>
+<p><a href="">CONTROLADORES</a></p>
+</li>
+<li>
+<p><a href="https://gustavopeiretti.com/spring-boot-componentes-estereotipos/">ESTREROTIPOS</a></p>
+</li>
+<li>
+<p><a href="https://gustavopeiretti.com/spring-boot-database-conexion-config/">CONEXION A BASE DE DATOS</a></p>
+</li>
+<li>
+<p><a href="https://gustavopeiretti.com/spring-injection-dependencies/">INJECCION DE DEPENDENCIA</a></p>
+</li>
+</ol>
+
+
+		
+	</div>
+
+	<div class="pagination">
+		<a href="/posts/post2/" class="left arrow">&#8592;</a>
+
+		<a href="#" class="top">Top</a>
+	</div>
+</main>
+
+
+        		<footer>
+			
+			<span>
+			&copy; <time datetime="2023-01-20 21:06:29.1181498 -0500 -05 m=&#43;0.718568901">2023</time> Ney Perea. Made with <a href='https://gohugo.io'>Hugo</a> using the <a href='https://github.com/EmielH/tale-hugo/'>Tale</a> theme.
+			</span>
+		</footer>
+
+    </body>
+</html>

@@ -22,7 +22,7 @@ theme= 'tale-hugo'
     name = "Posts"
     title = "Posts"
     url = "/posts/"
-    weight = 1
+    weight = 0
 
 
 
